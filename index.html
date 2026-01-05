@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aung Bhone Pyae</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="page">
+    <aside class="sidebar">
+      <div class="identity">
+        <img id="avatar" class="avatar" src="./assets/ABP.JPG" alt="Profile photo">
+        <div class="name" id="name">Loading…</div>
+        <div class="title" id="title"></div>
+        <div class="location" id="location"></div>
+        <div class="contact">
+          <a id="email" href="#" class="contact-link">Email</a>
+          <button id="copyEmail" class="ghost-button" type="button">Copy email</button>
+          <div id="phone" class="contact-link phone"></div>
+        </div>
+        <div class="links" id="links"></div>
+      </div>
+      <div class="side-section">
+        <h2>Skills</h2>
+        <div id="skillsList" class="skill-groups"></div>
+      </div>
+      <div class="side-section">
+        <h2>Tools</h2>
+        <ul id="toolsList" class="pill-list"></ul>
+      </div>
+      <div class="side-section">
+        <h2>Languages</h2>
+        <ul id="languagesList" class="pill-list"></ul>
+      </div>
+      <div class="side-actions">
+        <a class="primary-button" href="./assets/CV.pdf" download>Download CV</a>
+      </div>
+    </aside>
+
+    <main class="content">
+      <section id="summarySection" class="content-section">
+        <h1>Summary</h1>
+        <p id="summary">Loading profile…</p>
+      </section>
+
+      <section id="experienceSection" class="content-section">
+        <div class="section-header">
+          <h1>Experience</h1>
+        </div>
+        <div id="experienceList" class="entry-list"></div>
+      </section>
+
+      <section id="projectsSection" class="content-section">
+        <div class="section-header">
+          <h1>Projects</h1>
+        </div>
+        <div id="projectsList" class="entry-list"></div>
+      </section>
+
+      <section id="educationSection" class="content-section">
+        <div class="section-header">
+          <h1>Education</h1>
+        </div>
+        <div id="educationList" class="entry-list"></div>
+      </section>
+    </main>
+  </div>
+
+  <dialog id="detailDialog">
+    <div class="dialog-content">
+      <button class="close-button" type="button" aria-label="Close detail view">×</button>
+      <div class="dialog-body">
+        <p class="eyebrow" id="detailType"></p>
+        <h2 id="detailTitle"></h2>
+        <p class="meta" id="detailMeta"></p>
+        <p id="detailDescription" class="detail-description"></p>
+
+        <div id="detailHighlights" class="detail-block"></div>
+        <div id="detailTech" class="detail-block"></div>
+        <div id="detailResults" class="detail-block"></div>
+        <div id="detailLinks" class="detail-block"></div>
+      </div>
+    </div>
+  </dialog>
+
+  <script src="./main.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,314 @@
+{
+  "basics": {
+    "name": "Aung Bhone Pyae",
+    "title": "Computer Science MSc Student",
+    "location": "Phutthamonthon",
+    "email": "aungbonepyace@gmail.com",
+    "phone": "+66 91 727 1301",
+    "summary": "Computer Science MSc student with hands-on experience in developing digital solutions including facial recognition and database systems. Skilled in Python, Agile methodologies, and IT support with experience working remotely and in educational environments.",
+    "cvPdf": "./assets/CV.pdf",
+    "links": [
+      { "label": "GitHub", "url": "https://github.com/aungbhonepyace" },
+      { "label": "LinkedIn", "url": "https://www.linkedin.com/in/aung-bhone-pyae-6459481b9/" }
+    ]
+  },
+  "skills": [
+    {
+      "category": "Programming Languages and Technologies",
+      "items": ["Python", "SQL", "HTML/CSS/JS basics"]
+    },
+    {
+      "category": "Prototyping and Automation Tools",
+      "items": ["Axure RP", "Power Apps", "Power Automate"]
+    },
+    {
+      "category": "Methodologies",
+      "items": ["Agile & Scrum Methodologies"]
+    },
+    {
+      "category": "Hardware and Imaging",
+      "items": ["Raspberry Pi", "OpenCV"]
+    },
+    {
+      "category": "Database",
+      "items": ["Database Design", "ER Modeling"]
+    },
+    {
+      "category": "Data Skills",
+      "items": ["Data Analysis & Visualization"]
+    }
+  ],
+  "tools": [
+    "Python",
+    "SQL",
+    "Power Apps",
+    "Power Automate",
+    "Axure RP",
+    "OpenCV",
+    "Raspberry Pi",
+    "Git",
+    "Jira",
+    "MySQL",
+    "PostgreSQL"
+  ],
+  "languages": [
+    { "name": "Burmese", "level": "Native speaker" },
+    { "name": "English", "level": "Highly proficient (speaking and writing)" },
+    { "name": "Thai", "level": "A1" },
+    { "name": "Italian", "level": "A1" }
+  ],
+  "experience": [
+    {
+      "id": "experience-saya-foundation",
+      "company": "Saya Foundation",
+      "role": "IT Specialist",
+      "location": "Remote",
+      "start": "2023",
+      "end": "Present",
+      "details": "Remote IT specialist delivering and maintaining digital solutions that keep foundation operations running smoothly.",
+      "highlights": [
+        "Developed full-code digital solutions for internal organizational use.",
+        "Provided remote IT support, ensuring uptime and system maintenance.",
+        "Assisted with project planning and rollout of digital platforms."
+      ],
+      "tech": ["Python", "SQL", "Power Automate", "GitHub", "Remote Support"],
+      "links": []
+    },
+    {
+      "id": "experience-yangon-academy-international-school",
+      "company": "Yangon Academy International School (YAIS)",
+      "role": "Junior IT Assistant",
+      "location": "Yangon",
+      "start": "2022",
+      "end": "2023",
+      "details": "Provided on-site IT assistance and low-code solutions to support teachers, staff, and students.",
+      "highlights": [
+        "Maintained and updated IT inventory across branches.",
+        "Built low-code tools using Power Apps and Power Automate.",
+        "Delivered hands-on tech support to teachers, staff, and students."
+      ],
+      "tech": ["Power Apps", "Power Automate", "Microsoft 365", "Asset Management"],
+      "links": []
+    },
+    {
+      "id": "experience-ykko-restaurant-group",
+      "company": "YKKO (Restaurant Group)",
+      "role": "IT Intern",
+      "location": "Yangon",
+      "start": "2020",
+      "end": "2021",
+      "details": "IT intern supporting troubleshooting, networking, and hardware upkeep across restaurant locations.",
+      "highlights": [
+        "Supported troubleshooting of hardware, software, and networking.",
+        "Helped manage and track IT assets across multiple locations."
+      ],
+      "tech": ["Hardware Support", "Networking", "Inventory Tracking"],
+      "links": []
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-facial-recognition-door-unlock",
+      "title": "Facial Recognition Door Unlock System",
+      "tagline": "Raspberry Pi 5 system using Python and OpenCV to automate door access.",
+      "start": "2024",
+      "end": "2024",
+      "details": "Built a Raspberry Pi 5-based access system using a camera module, Python, and OpenCV for real-time facial recognition.",
+      "highlights": [
+        "Integrated camera module capture and OpenCV-based facial recognition pipeline.",
+        "Deployed on Raspberry Pi 5 with GPIO control for door unlock signaling."
+      ],
+      "tech": ["Python", "OpenCV", "Raspberry Pi", "GPIO"],
+      "results": [],
+      "links": [],
+      "images": []
+    },
+    {
+      "id": "project-thailand-aqi-analysis",
+      "title": "Thailand AQI Data Analysis",
+      "tagline": "Data analysis of Thailand’s AQI with visual insights on pollution trends.",
+      "start": "2024",
+      "end": "2024",
+      "details": "Performed exploratory data analysis on Thailand’s AQI dataset to surface trends and visual insights.",
+      "highlights": [
+        "Cleaned and transformed AQI datasets for visualization.",
+        "Built visual summaries highlighting seasonal and regional pollution trends."
+      ],
+      "tech": ["Python", "Pandas", "Data Visualization"],
+      "results": [],
+      "links": [],
+      "images": []
+    },
+    {
+      "id": "project-board-game-cafe-database",
+      "title": "Board Game Café Database System",
+      "tagline": "Relational database design with ER modeling and SQL schema for a board game café.",
+      "start": "2024",
+      "end": "2024",
+      "details": "Designed and implemented a database system for a board game café, covering ER modeling and SQL schema.",
+      "highlights": [
+        "Created ER diagrams capturing inventory, bookings, and customer data.",
+        "Implemented normalized SQL schema to support daily operations."
+      ],
+      "tech": ["Database Design", "ER Modeling", "SQL"],
+      "results": [],
+      "links": [],
+      "images": []
+    },
+    {
+      "id": "project-shph-management-system",
+      "title": "SHPH Management System",
+      "tagline": "Agile-led build of a Subdistrict Health Promotion Hospital management system.",
+      "start": "2024",
+      "end": "2024",
+      "details": "Served as Scrum Master leading a team of 7 to build a SHPH Management System using agile practices.",
+      "highlights": [
+        "Facilitated sprints, standups, and retros for a 7-person team.",
+        "Delivered core modules for patient intake, scheduling, and reporting."
+      ],
+      "tech": ["Agile", "Scrum", "Project Management"],
+      "results": [],
+      "links": [],
+      "images": []
+    },
+    {
+      "id": "project-employee-management-system",
+      "title": "Employee Management System",
+      "tagline": "CRUD system with access control for managing employee records.",
+      "start": "2021",
+      "end": "2021",
+      "details": "Built during BSc studies to manage employee data with role-based access control.",
+      "highlights": [
+        "Implemented CRUD workflows for employee records.",
+        "Added role-based access control to protect sensitive data."
+      ],
+      "tech": ["SQL", "Web Development", "Access Control"],
+      "results": [],
+      "links": [],
+      "images": []
+    },
+    {
+      "id": "project-university-forum-website",
+      "title": "University Forum Website",
+      "tagline": "Collaboration platform for student engagement and discussion.",
+      "start": "2021",
+      "end": "2021",
+      "details": "Collaborated on a forum website enabling student discussions and engagement.",
+      "highlights": [
+        "Built discussion boards with topic/thread organization.",
+        "Enabled user accounts for posting and moderation."
+      ],
+      "tech": ["HTML", "CSS", "JavaScript", "SQL"],
+      "results": [],
+      "links": [],
+      "images": []
+    },
+    {
+      "id": "project-in-car-stereo-prototype",
+      "title": "Interactive In-car Stereo App Prototype",
+      "tagline": "Axure RP prototype for an in-car stereo experience.",
+      "start": "2020",
+      "end": "2020",
+      "details": "Designed an interactive prototype for an in-car stereo app using Axure RP.",
+      "highlights": [
+        "Mapped user flows and interactive elements for media control.",
+        "Produced clickable prototype showcasing navigation and playback."
+      ],
+      "tech": ["Axure RP", "Prototyping"],
+      "results": [],
+      "links": [],
+      "images": []
+    },
+    {
+      "id": "project-library-website",
+      "title": "Library Website",
+      "tagline": "Online library site with reading and purchasing capabilities.",
+      "start": "2020",
+      "end": "2020",
+      "details": "Built a library website allowing online reading and purchasing of books.",
+      "highlights": [
+        "Implemented catalog browsing and search.",
+        "Added online reading and purchase request flows."
+      ],
+      "tech": ["HTML", "CSS", "JavaScript"],
+      "results": [],
+      "links": [],
+      "images": []
+    },
+    {
+      "id": "project-hospital-website",
+      "title": "Hospital Website",
+      "tagline": "Informational site with doctor/treatment information and appointment requests.",
+      "start": "2019",
+      "end": "2019",
+      "details": "Built as a group project to share hospital information and handle appointment requests.",
+      "highlights": [
+        "Published doctor profiles, treatments, and services.",
+        "Added appointment request form routing to staff."
+      ],
+      "tech": ["HTML", "CSS", "JavaScript"],
+      "results": [],
+      "links": [],
+      "images": []
+    }
+  ],
+  "education": [
+    {
+      "id": "education-mahidol-university",
+      "school": "Mahidol University",
+      "degree": "MSc in Computer Science",
+      "location": "Thailand",
+      "start": "2024",
+      "end": "Present",
+      "details": "Postgraduate studies focused on computer science, applied projects, and agile delivery.",
+      "highlights": [
+        "Developed a Facial Recognition Door Unlock System using Raspberry Pi 5, camera module, Python, and OpenCV.",
+        "Performed data analysis on Thailand’s AQI, generating visual insights on pollution trends.",
+        "Designed a database system for a board game café, including ER modeling and SQL schema.",
+        "Served as Scrum Master for a team of 7 in building a Subdistrict Health Promotion Hospital (SHPH) Management System using agile practices."
+      ],
+      "links": []
+    },
+    {
+      "id": "education-university-of-greenwich",
+      "school": "University of Greenwich",
+      "degree": "BSc in Computing",
+      "location": "United Kingdom",
+      "start": "2019",
+      "end": "2022",
+      "details": "Undergraduate studies in computing covering software development and collaborative web projects.",
+      "highlights": [
+        "Created an Employee Management System with CRUD functionality and access control.",
+        "Collaborated on a University Forum Website for student engagement and discussion."
+      ],
+      "links": []
+    },
+    {
+      "id": "education-ncc-education",
+      "school": "NCC Education",
+      "degree": "L5D in Computing",
+      "location": "United Kingdom",
+      "start": "2020",
+      "end": "2021",
+      "details": "Level 5 diploma work emphasizing applied computing and interface prototyping.",
+      "highlights": [
+        "Designed an interactive in-car stereo app prototype using Axure RP.",
+        "Built a Library Website with online reading and purchasing capabilities."
+      ],
+      "links": []
+    },
+    {
+      "id": "education-kmd",
+      "school": "KMD",
+      "degree": "Diploma in Web Development",
+      "location": "Myanmar",
+      "start": "2019",
+      "end": "2019",
+      "details": "Diploma studies focused on foundational web development skills.",
+      "highlights": [
+        "Built a Hospital Website as a group project, providing doctor/treatment information and appointment requests."
+      ],
+      "links": []
+    }
+  ]
+}
